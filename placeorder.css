@@ -1,0 +1,143 @@
+Z*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:#74f38430 ;
+}
+
+input{
+  outline: 1px solid rgb(78, 138, 252);
+  border: 1px solid rgb(78, 138, 252);
+  margin-bottom: 15px;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 15px;
+  background: #b1d2fb;
+}
+ button {
+    background: blueviolet;
+    outline: none;
+    border: 2px solid rgb(134, 11, 248);
+    border-radius: 10px;
+    
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 5px 30px;
+    font-size: 15px;
+    color: lightcyan;
+  }
+  
+button:hover {
+    background: rgb(158, 73, 238);
+  }
+button:focus{
+    border: 2px solid rgb(18, 1, 255);
+}
+
+a{
+    color: rgb(185, 206, 226);
+    text-decoration: none;
+}
+
+.head{
+    color: rgb(46, 46, 190);
+    text-align: center;
+}
+.orderform{
+    
+    padding: 0.5%;
+}
+.orderform .productdetail{
+    
+    padding:2% 5%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 500px;
+
+    justify-content: space-around;
+    
+}
+
+.orderform .orderdetails{
+    
+    padding: 2% 5%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 500px;
+
+    justify-content: flex-start;
+}
+
+.orderform .box1,.orderform .box2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around; 
+  
+    
+
+}
+
+.orderform .customerdetails{
+    
+    padding:2% 5%;
+    display: flex; 
+    align-content: center;
+    flex-direction: column;
+    width: 500px;
+    justify-content: space-around;
+}
+.orderform .sellerdetails{
+    
+    padding:2% 5%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 500px;
+
+    justify-content: space-around;
+    
+}
+
+.orderform .btns{
+    
+    padding: 0.5%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.bbtn {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+  }
+  .bbtn button {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(75, 102, 48);
+  }
+  
+  .bbtn button:hover {
+    background: rgb(91, 129, 52);
+  }
+  .container{
+    /*border: 2px solid blue;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6%;
+    margin-left: 6%;
+    margin-bottom: 6%;
+    margin-right: 6%;
+  }
+
+

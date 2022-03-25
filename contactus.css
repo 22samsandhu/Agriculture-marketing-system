@@ -1,0 +1,85 @@
+h1{
+    text-align:center;
+}
+.contact{
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+.contact .c-form .form{
+    
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 20px 100px 50px 100px;
+    flex-wrap: wrap;
+
+}
+.contact .c-form .form .msg{
+    
+    margin-top:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    padding: 0px 40px 0px 40px;
+}
+.contact .c-form .form .msg button{
+    background-color: rgb(83, 236, 83);
+    border:2px solid rgb(25, 255, 121);
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+}
+.contact .c-form .form .msg button:hover{
+    background-color: rgba(113, 218, 113, 0.616);
+
+}
+.contact .c-form .form .msg button:active{
+    background-color: rgba(34, 119, 34, 0.705);
+}
+
+.contact .c-form .form input{
+    outline: 1px solid rgb(78, 138, 252);
+    border: 1px solid rgb(78, 138, 252);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 14px;
+    font-size: 15px;
+    background: #b1d2fb;
+}
+
+.contact .c-form .form .info{
+    padding: 5px 30px 5px 30px;
+    
+}
+
+
+.contact .c-form .form textarea{
+    outline: 1px solid rgb(78, 138, 252);
+    border: 1px solid rgb(78, 138, 252);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 14px;
+    font-size: 15px;
+    background: #b1d2fb;
+    
+}
+
+.contact .c-form .form textarea:focus{
+    border: 3px solid rgb(18, 1, 255);
+
+}
+.contact .c-form .form input:focus{
+    border: 3px solid rgb(18, 1, 255);
+
+}
+
+.contact .c-info{
+    text-align: center;
+}
+
+
+
+
+

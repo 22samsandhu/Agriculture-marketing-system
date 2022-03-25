@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    padding: 10px;
+}
+
+.accountinfo{
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+.accountinfo .box{
+    border: 2px solid black;
+    text-transform: capitalize;
+    padding: 10px;
+    
+}
+
+.accountinfo .box .left img{
+    border:2px solid black ;
+}
+.accountinfo .box .right,.accountinfo .box .left{
+    margin: 1%;
+}
+.accountinfo .box .right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+

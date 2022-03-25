@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+     background: url("afterorderbg.jpeg");
+     z-index: -1; 
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color: #e0c8ac;
+}
+
+.container{
+    background-color:  rgb(70 19 19 / 40%);
+    border-radius: 30px;
+        display: flex;
+    
+        margin: auto;
+        width: 60%;
+       
+        padding: 15% 10%;
+        
+        align-items: center;
+        margin-top: 5%;
+        box-shadow: 0px 0px 20px   rgba(24, 30, 46, 0.178);
+        
+        
+    
+}
+.container .content{
+    display: grid;
+    text-align: center;
+}
+
+a{
+    background-color: rgba(0, 68, 255, 0.8);
+    text-decoration: none;
+    margin: 10px;
+    outline: none;
+    border: none;
+    color: rgb(240, 205, 164);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+ a:hover{
+    box-shadow: 0px 0px 5px blue;
+}
+
+
+
+

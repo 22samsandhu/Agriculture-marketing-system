@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* banner */
+.banner{
+    padding: 1%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 5% 10% 5% 10%;
+
+}
+.banner .text{
+    display: flex;
+    flex-direction: column;
+}
+.banner .text h1{
+    
+    text-align: center;
+    display: block;
+    font-size: 2rem;
+}
+.banner .text h4{
+    text-align: center;
+    word-wrap: wrap;
+}
+.banner .btns {
+    
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.banner .btns a{
+    background-color: rgba(63, 112, 117, 0.8);
+    text-decoration: none;
+    margin: 10px;
+    outline: none;
+    border: none;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.banner .btns a:hover{
+    box-shadow: 0px 0px 5px blue;
+}
+.banner .btns  a:active{ 
+    background-color: rgb(0, 70, 128);
+}
+
+/* product show */
+
+.products{
+    padding: 1.5%;
+    
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.products .pro{
+
+display: flex;
+justify-content: center;
+justify-content: space-around;
+margin: 15px;
+flex-wrap: wrap;
+
+}
+.products h1{
+text-align: center;
+}
+
+.products .pro .pr{
+
+justify-content: center;
+
+}
+.products .pro .pr h3{
+text-align: center;
+}
+
+.products .pro .pr img{
+width: 150px;
+height: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+border-radius: 10px;
+}
+
+.products .btn{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.products .btn button{
+width: 100px;
+outline: none;
+border: none;
+color: whitesmoke;
+padding: 10px;
+border-radius: 20px;
+background-color:rgb(0, 4, 255) ;
+
+}
+.products .btn a{
+text-align: center;
+color: white;
+text-decoration: none;
+}
+
+.products .btn button:hover{
+box-shadow: 0px 0px 5px blue;
+}
+.products .btn button:active{
+    background-color: rgb(53, 130, 247);
+}
+
+/* service */
+.service{
+    padding: 1.5%;
+    
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service .content img{
+    width: 200px;
+}
+.service .heading h1{
+    text-align: center;
+}
+
+.service .content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service .content .buy p{
+    text-align: center;
+}
+.service .content .sell p{
+    text-align: center;
+}
+
+.service .content .buy h1{
+    text-align: center;
+}
+.service .content .sell h1{
+    text-align: center;
+}
+
+/* footer */
+.footer{
+    color: #bbb9ae;
+    padding: 1%;
+    background-color:#0c0707;
+    display: flex;
+    flex-direction:row ;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer .c-form input{
+    color: blanchedalmond;
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 90%;
+    border-radius: 0px;
+    background-color: black;
+
+}
+.footer .c-form input:focus{
+    border-bottom: 2px solid white;
+}
+
+.footer .c-form .msgsubmit{
+    border: none;
+    outline: none;
+    background-color: #248156;
+    color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.footer .c-form .msgsubmit:hover{
+    background-color: #66a88a85;
+    border:2px solid grey ;
+}
+
+.footer .c-form .msgsubmit:active{
+    background-color: #248156;
+}
+
+
+
+
+
+
+

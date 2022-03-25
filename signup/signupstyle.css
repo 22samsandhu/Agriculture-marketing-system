@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    justify-content: center;
+    background-size: cover;
+    
+}
+.bbtn {
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+  }
+  .bbtn button {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: rgb(75, 102, 48);
+  }
+  
+  .bbtn button:hover {
+    background: rgb(91, 129, 52);
+  }
+.container{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    margin: 6%;
+    margin-top: 1%;
+    
+    align-items: center;
+    border-radius: 14px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 15px red; 
+}
+.form-item{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .img{
+    display: flex;
+    justify-content: center;
+    
+    padding: 10px;
+}
+
+.container .signup{
+    display: flex;
+    
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container .signup h1{
+    text-align: center;
+    word-wrap: wrap;
+}
+
+.container .signup .name{
+    display: flex;
+   
+    padding: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 1px;
+
+
+}
+.container .signup .name .ntitle{
+    display: flex;
+   
+    padding: 10px;
+    flex-wrap: wrap;
+    padding-bottom:1px ;
+}
+
+.container .signup .feildname{
+    display: flex;
+    
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+    padding-top: 1px;
+    padding-bottom: 0px;
+}
+.container .signup .feildname .ffeildname{
+    margin-right:5px;
+    
+}
+.container .signup .feildname .lfeildname{
+    margin-left: 5px;
+}
+
+
+
+.container .signup .otherinfo{
+    display: flex;
+    flex-direction: column;
+    
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center ;
+    padding-top: 0px;
+
+}
+
+.container .signup input{
+    outline: 1px solid rgb(78, 138, 252);
+    border: 1px solid rgb(78, 138, 252);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    background: #b1d2fb;
+}
+
+.container .signup input:focus{
+    border: 3px solid rgb(18, 1, 255);
+}
+
+.container .signup button{
+    background-color: rgb(83, 236, 83);
+    border:2px solid rgb(25, 255, 121);
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+}
+.container .signup button:hover{
+    background-color: rgba(113, 218, 113, 0.616);
+
+}
+.container .signup button:active{
+    background-color: rgba(34, 119, 34, 0.705);
+}
+
+.container .signup a{
+    color: rgb(137, 225, 252);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+
+
